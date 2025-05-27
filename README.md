@@ -1,6 +1,6 @@
-# *HoneyPatcher!*
+# *MoongatePatcher*
 
-A mod installer and tool for Sonic the Fighters.
+A mod installer and tool for Cyber Troopers Virtual-On (Operation Moongate).
 
 Right now, it can:
 
@@ -18,7 +18,7 @@ Coming soon.
 
 ### Credits
 
-HoneyPatcher uses borrowed code and libraries from the following places:
+MoongatePatcher, being a fork of HoneyPatcher uses borrowed code and libraries from the following places:
 - [ini-parser](https://github.com/rickyah/ini-parser) by [rickyah](https://github.com/rickyah). Licensed under the [MIT License](https://github.com/rickyah/ini-parser/blob/development/LICENSE).
 - [MikuMikuLibrary](https://github.com/blueskythlikesclouds/MikuMikuLibrary) by [Skyth](https://github.com/blueskythlikesclouds). Licensed under the [MIT License](https://github.com/blueskythlikesclouds/MikuMikuLibrary?tab=MIT-1-ov-file).
 - [xdelta-sharp](https://github.com/pleonex/xdelta-sharp) by [pleonex](https://github.com/pleonex). Licensed under the [MIT License](https://github.com/pleonex/xdelta-sharp/blob/main/LICENSE).
