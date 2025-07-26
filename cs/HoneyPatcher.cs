@@ -88,15 +88,15 @@ public partial class HoneyPatcher : Node2D
 	
 	// Install mods
 	private void OnInstallPressed(){
-		// Check for clean copy of stf w/ rom.psarc still intact
+		// Check for clean copy of omg w/ rom.psarc still intact
 		string psarc_path = Path.Combine(usrdir, "rom.psarc");
 		if (!File.Exists(psarc_path)){
-			ShowError("Error", "rom.psarc could not be found. Please ensure you have a clean copy of Sonic the Fighters if this\nis your first time, or Uninstall mods before proceeding.");
+			ShowError("Error", "rom.psarc could not be found. Please ensure you have a clean copy of Cyber Troopers Virtual-On if this\nis your first time, or Uninstall mods before proceeding.");
 			_progress.Text += "[E] rom.psarc not found.\n";
 			return;
 		}
 		
-		// Make backup if valid stf found and no backup exists
+		// Make backup if valid omg found and no backup exists
 		if(!Directory.Exists(backupDir)){
 			Directory.CreateDirectory(backupDir);
 			_progress.Text += "[I] Created backup directory.\n";
@@ -177,7 +177,7 @@ public partial class HoneyPatcher : Node2D
 		  patchname = _patchname.Text;
 		List<string> files = new List<string>();
 		GD.Print("creating patches");
-		string[] roms = {"rom_code1.bin", "rom_data.bin", "rom_ep.bin", "rom_pol.bin", "rom_tex.bin", "string_array_en.bin"};
+		string[] roms = {"farc_tex.bin", "rom_code.bin", "rom_data.bin", "rom_cop.bin", "rom_pol.bin", "rom_tex.bin", "string_array_jp.bin"};
 		foreach (string rawhm in roms){
 			if (!File.Exists(Path.Combine(workbenchDir, "original", rawhm))){
 				GD.Print("original " + rawhm + " not found");
@@ -247,18 +247,18 @@ public partial class HoneyPatcher : Node2D
 	https://github.com/blueskythlikesclouds/MikuMikuLibrary */
 	
 	private void FarcUnpack(){
-		string[] farcs =   {"sprite/n_advstf.farc", 
+		string[] farcs =   {"sprite/n_adv.farc", 
 							"sprite/n_cmn.farc", 
 							"sprite/n_cmn.farc", 
 							"sprite/n_fnt.farc", 
 							"sprite/n_info.farc", 
-							"sprite/n_stf.farc", 
+							"sprite/n_omg.farc", 
 							"string_array.farc", 
-							"sprite/n_advstf/texture.farc", 
+							"sprite/n_adv/texture.farc", 
 							"sprite/n_cmn/texture.farc", 
 							"sprite/n_fnt/texture.farc", 
 							"sprite/n_info/texture.farc", 
-							"sprite/n_stf/texture.farc"};
+							"sprite/n_omg/texture.farc"};
 	
 		foreach (string farc in farcs )
 		{
@@ -283,18 +283,18 @@ public partial class HoneyPatcher : Node2D
 	}
 	
 	private void FarcPack(){
-		string[] dirlist = {"sprite/n_advstf/texture", 
+		string[] dirlist = {"sprite/n_adv/texture", 
 							"sprite/n_cmn/texture", 
 							"sprite/n_cmn/texture", 
 							"sprite/n_fnt/texture", 
 							"sprite/n_info/texture", 
-							"sprite/n_stf/texture", 
+							"sprite/n_omg/texture", 
 							"string_array", 
-							"sprite/n_advstf", 
+							"sprite/n_adv", 
 							"sprite/n_cmn", 
 							"sprite/n_fnt", 
 							"sprite/n_info", 
-							"sprite/n_stf"};
+							"sprite/n_omg"};
 	
 		foreach (string dir in dirlist)
 		{
@@ -302,7 +302,7 @@ public partial class HoneyPatcher : Node2D
 			string sourceFileName = Path.GetFullPath(Path.Combine(usrdir, "rom", dir));
 			string destinationFileName = Path.ChangeExtension(sourceFileName, "farc");;
 
-			// These arguments should never change, as they seem to work fine with STF
+			// These arguments should never change, as they seem to work fine with OMG
 			bool compress = false;
 			int alignment = 16;
 			
@@ -338,7 +338,7 @@ public partial class HoneyPatcher : Node2D
 		{
 			string modpath = mod;
 			string romdir = Path.Combine(usrdir, "rom");
-			string stf_rom = Path.Combine(romdir, "stf_rom");
+			string omg_rom = Path.Combine(romdir, "omg_rom");
 			if (Path.GetExtension(modpath) == ".zip")
 				ZipFile.ExtractToDirectory(modpath, romdir, true);
 		}
@@ -353,25 +353,28 @@ public partial class HoneyPatcher : Node2D
 		{
 			string modpath = mod; // patch
 			string romdir = Path.Combine(usrdir, "rom");
-			string stf_rom = Path.Combine(romdir, "stf_rom");
+			string omg_rom = Path.Combine(romdir, "omg_rom");
 			string patchdest; // file to be patched
 			switch(Path.GetExtension(modpath))
 			{
 				// Check the file extension, which should be the name of the file you want to patch
-				case ".rom_code1":
-					patchdest = Path.Combine(stf_rom, "rom_code1.bin");
+				case ".farc_tex":
+					patchdest = Path.Combine(omg_rom, "farc_tex.bin");
+					break;
+				case ".rom_code":
+					patchdest = Path.Combine(omg_rom, "rom_code.bin");
 					break;
 				case ".rom_data":
-					patchdest = Path.Combine(stf_rom, "rom_data.bin");
+					patchdest = Path.Combine(omg_rom, "rom_data.bin");
 					break;
-				case ".rom_ep":
-					patchdest = Path.Combine(stf_rom, "rom_ep.bin");
+				case ".rom_cop":
+					patchdest = Path.Combine(omg_rom, "rom_cop.bin");
 					break;
 				case ".rom_pol":
-					patchdest = Path.Combine(stf_rom, "rom_pol.bin");
+					patchdest = Path.Combine(omg_rom, "rom_pol.bin");
 					break;
 				case ".rom_tex":
-					patchdest = Path.Combine(stf_rom, "rom_tex.bin");
+					patchdest = Path.Combine(omg_rom, "rom_tex.bin");
 					break;
 				// At some point we'll handle these with actual XML extraction/injection!
 				// For now, this will do.

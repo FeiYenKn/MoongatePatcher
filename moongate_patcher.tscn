@@ -1,91 +1,91 @@
-[gd_scene load_steps=34 format=3 uid="uid://bsjcg2emguurk"]
+[gd_scene load_steps=34 format=3 uid="uid://d238qvvl06lmu"]
 
-[ext_resource type="Script" uid="uid://dwnoc572rbxo0" path="res://cs/HoneyPatcher.cs" id="1_72wd4"]
-[ext_resource type="Texture2D" uid="uid://b8c1paw2vgij7" path="res://assets/merge_nocomp_1.png" id="2_clxbb"]
-[ext_resource type="Texture2D" uid="uid://c3jme3r8tpumq" path="res://assets/HONEYBADGER.png" id="3_uvcbp"]
-[ext_resource type="Script" uid="uid://4aefcieh1bhm" path="res://gd/honey_badger.gd" id="4_vxq1r"]
-[ext_resource type="Texture2D" uid="uid://bvut6magca8we" path="res://assets/explode.png" id="5_idu76"]
-[ext_resource type="Script" uid="uid://bfth36gmn7y18" path="res://gd/description.gd" id="6_mif06"]
-[ext_resource type="Texture2D" uid="uid://dwmvkiyktnvft" path="res://assets/explotano/explotano08.png" id="6_y4hxk"]
-[ext_resource type="Texture2D" uid="uid://caab5im6xbu1m" path="res://assets/explotano/explotano09.png" id="7_pvwf1"]
-[ext_resource type="Texture2D" uid="uid://dxw2gjnjsn3kk" path="res://assets/explotano/explotano10.png" id="8_t525e"]
-[ext_resource type="Texture2D" uid="uid://cdjgj5ub4n8ta" path="res://assets/explotano/explotano11.png" id="9_wqh0f"]
-[ext_resource type="Texture2D" uid="uid://bpjkc4ybr40g8" path="res://assets/explotano/explotano12.png" id="10_6hmc5"]
-[ext_resource type="Texture2D" uid="uid://c5f3cdl1y14pg" path="res://assets/explotano/explotano13.png" id="11_fculv"]
-[ext_resource type="Texture2D" uid="uid://cwstr4tnqscph" path="res://assets/explotano/explotano14.png" id="12_ixcyh"]
-[ext_resource type="Texture2D" uid="uid://8p1kix6ddhks" path="res://assets/explotano/explotano15.png" id="13_f5t1a"]
-[ext_resource type="Texture2D" uid="uid://bngkboxeb3n3g" path="res://assets/explotano/explotano16.png" id="14_j6888"]
-[ext_resource type="Texture2D" uid="uid://6xtcwqktfams" path="res://assets/explotano/explotano00.png" id="15_np61q"]
-[ext_resource type="Texture2D" uid="uid://x4ugymkgdojg" path="res://assets/explotano/explotano01.png" id="16_3m2l0"]
-[ext_resource type="Texture2D" uid="uid://vq8q0bi7r8gp" path="res://assets/explotano/explotano02.png" id="17_8h525"]
-[ext_resource type="Texture2D" uid="uid://btyr3ah81udoq" path="res://assets/explotano/explotano03.png" id="18_wrbbu"]
-[ext_resource type="Texture2D" uid="uid://duwywld4vp4bi" path="res://assets/explotano/explotano04.png" id="19_2issm"]
-[ext_resource type="Texture2D" uid="uid://cgors0gnmli82" path="res://assets/explotano/explotano05.png" id="20_331ft"]
-[ext_resource type="Texture2D" uid="uid://bil4r8s58dipx" path="res://assets/explotano/explotano06.png" id="21_3ibrs"]
-[ext_resource type="Texture2D" uid="uid://bj5cwia2q07ly" path="res://assets/explotano/explotano07.png" id="22_215ki"]
-[ext_resource type="AudioStream" uid="uid://cfgjpqrcyrimq" path="res://assets/explotano.ogg" id="23_1qnki"]
-[ext_resource type="Script" uid="uid://ru6t8wmkm4sm" path="res://gd/gen_patches.gd" id="25_7sdjr"]
-[ext_resource type="Script" uid="uid://b1gngepcl1vf2" path="res://gd/usrdir_dialog.gd" id="25_61viv"]
-[ext_resource type="Script" uid="uid://dmt3ma53sykab" path="res://gd/lightning.gd" id="27_0b2i5"]
-[ext_resource type="Texture2D" uid="uid://dc6uccaglxl3j" path="res://assets/HONEYNOW.png" id="27_iaya5"]
-[ext_resource type="Texture2D" uid="uid://c2icqgth1gib0" path="res://assets/lightning-png-transparent-4.png" id="27_vnpkj"]
-[ext_resource type="Script" uid="uid://cfw7siled7tvq" path="res://gd/honey_now.gd" id="28_alpvu"]
-[ext_resource type="Script" uid="uid://bg4y2v77257p5" path="res://gd/honey_now_big.gd" id="28_kwxox"]
-[ext_resource type="AudioStream" uid="uid://8m6yi6fogqc2" path="res://assets/now.ogg" id="32_a42q4"]
+[ext_resource type="Script" uid="uid://dwnoc572rbxo0" path="res://cs/HoneyPatcher.cs" id="1_47nkr"]
+[ext_resource type="Texture2D" uid="uid://b8c1paw2vgij7" path="res://assets/merge_nocomp_1.png" id="2_ukktt"]
+[ext_resource type="Texture2D" uid="uid://c3jme3r8tpumq" path="res://assets/HONEYBADGER.png" id="3_hkdb5"]
+[ext_resource type="Script" uid="uid://4aefcieh1bhm" path="res://gd/honey_badger.gd" id="4_n1tbh"]
+[ext_resource type="Texture2D" uid="uid://bvut6magca8we" path="res://assets/explode.png" id="5_vyxa3"]
+[ext_resource type="Texture2D" uid="uid://dwmvkiyktnvft" path="res://assets/explotano/explotano08.png" id="6_5imcm"]
+[ext_resource type="Texture2D" uid="uid://caab5im6xbu1m" path="res://assets/explotano/explotano09.png" id="7_78q0y"]
+[ext_resource type="Texture2D" uid="uid://dxw2gjnjsn3kk" path="res://assets/explotano/explotano10.png" id="8_a4tts"]
+[ext_resource type="Texture2D" uid="uid://cdjgj5ub4n8ta" path="res://assets/explotano/explotano11.png" id="9_xdw6t"]
+[ext_resource type="Texture2D" uid="uid://bpjkc4ybr40g8" path="res://assets/explotano/explotano12.png" id="10_iwglv"]
+[ext_resource type="Texture2D" uid="uid://c5f3cdl1y14pg" path="res://assets/explotano/explotano13.png" id="11_sod8v"]
+[ext_resource type="Texture2D" uid="uid://cwstr4tnqscph" path="res://assets/explotano/explotano14.png" id="12_n1blg"]
+[ext_resource type="Texture2D" uid="uid://8p1kix6ddhks" path="res://assets/explotano/explotano15.png" id="13_uj8xe"]
+[ext_resource type="Texture2D" uid="uid://bngkboxeb3n3g" path="res://assets/explotano/explotano16.png" id="14_wpu28"]
+[ext_resource type="Texture2D" uid="uid://6xtcwqktfams" path="res://assets/explotano/explotano00.png" id="15_lyi1n"]
+[ext_resource type="Texture2D" uid="uid://x4ugymkgdojg" path="res://assets/explotano/explotano01.png" id="16_l4i76"]
+[ext_resource type="Texture2D" uid="uid://vq8q0bi7r8gp" path="res://assets/explotano/explotano02.png" id="17_vobu6"]
+[ext_resource type="Texture2D" uid="uid://btyr3ah81udoq" path="res://assets/explotano/explotano03.png" id="18_nlk02"]
+[ext_resource type="Texture2D" uid="uid://duwywld4vp4bi" path="res://assets/explotano/explotano04.png" id="19_vty0t"]
+[ext_resource type="Texture2D" uid="uid://cgors0gnmli82" path="res://assets/explotano/explotano05.png" id="20_1iqyn"]
+[ext_resource type="Texture2D" uid="uid://bil4r8s58dipx" path="res://assets/explotano/explotano06.png" id="21_4h4q0"]
+[ext_resource type="Texture2D" uid="uid://bj5cwia2q07ly" path="res://assets/explotano/explotano07.png" id="22_iye7r"]
+[ext_resource type="AudioStream" uid="uid://cfgjpqrcyrimq" path="res://assets/explotano.ogg" id="23_dh5rw"]
+[ext_resource type="Script" uid="uid://bfth36gmn7y18" path="res://gd/description.gd" id="24_iql7c"]
+[ext_resource type="Script" uid="uid://ru6t8wmkm4sm" path="res://gd/gen_patches.gd" id="25_ustup"]
+[ext_resource type="Script" uid="uid://b1gngepcl1vf2" path="res://gd/usrdir_dialog.gd" id="26_mbwk5"]
+[ext_resource type="Texture2D" uid="uid://c2icqgth1gib0" path="res://assets/lightning-png-transparent-4.png" id="27_j11df"]
+[ext_resource type="Script" uid="uid://dmt3ma53sykab" path="res://gd/lightning.gd" id="28_1axod"]
+[ext_resource type="Texture2D" uid="uid://dc6uccaglxl3j" path="res://assets/HONEYNOW.png" id="29_uuvjd"]
+[ext_resource type="Script" uid="uid://cfw7siled7tvq" path="res://gd/honey_now.gd" id="30_awgdd"]
+[ext_resource type="Script" uid="uid://bg4y2v77257p5" path="res://gd/honey_now_big.gd" id="31_j02at"]
+[ext_resource type="AudioStream" uid="uid://8m6yi6fogqc2" path="res://assets/now.ogg" id="32_yvfwc"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_dcw1t"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("6_y4hxk")
+"texture": ExtResource("6_5imcm")
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_pvwf1")
+"texture": ExtResource("7_78q0y")
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_t525e")
+"texture": ExtResource("8_a4tts")
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_wqh0f")
+"texture": ExtResource("9_xdw6t")
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_6hmc5")
+"texture": ExtResource("10_iwglv")
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_fculv")
+"texture": ExtResource("11_sod8v")
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_ixcyh")
+"texture": ExtResource("12_n1blg")
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_f5t1a")
+"texture": ExtResource("13_uj8xe")
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_j6888")
+"texture": ExtResource("14_wpu28")
 }, {
 "duration": 1.0,
-"texture": ExtResource("15_np61q")
+"texture": ExtResource("15_lyi1n")
 }, {
 "duration": 1.0,
-"texture": ExtResource("16_3m2l0")
+"texture": ExtResource("16_l4i76")
 }, {
 "duration": 1.0,
-"texture": ExtResource("17_8h525")
+"texture": ExtResource("17_vobu6")
 }, {
 "duration": 1.0,
-"texture": ExtResource("18_wrbbu")
+"texture": ExtResource("18_nlk02")
 }, {
 "duration": 1.0,
-"texture": ExtResource("19_2issm")
+"texture": ExtResource("19_vty0t")
 }, {
 "duration": 1.0,
-"texture": ExtResource("20_331ft")
+"texture": ExtResource("20_1iqyn")
 }, {
 "duration": 1.0,
-"texture": ExtResource("21_3ibrs")
+"texture": ExtResource("21_4h4q0")
 }, {
 "duration": 1.0,
-"texture": ExtResource("22_215ki")
+"texture": ExtResource("22_iye7r")
 }],
 "loop": false,
 "name": &"default",
@@ -93,7 +93,7 @@ animations = [{
 }]
 
 [node name="HoneyPatcher" type="Node2D" node_paths=PackedStringArray("_acceptdialog", "_usrdirdialog", "_install", "_restoreusrdir", "_modsfolder", "_genpatches", "_progress", "_patchname", "_patchesfolder")]
-script = ExtResource("1_72wd4")
+script = ExtResource("1_47nkr")
 _acceptdialog = NodePath("AcceptDialog")
 _usrdirdialog = NodePath("USRDIRDialog")
 _install = NodePath("Install")
@@ -108,13 +108,13 @@ _patchesfolder = NodePath("PatchesFolder")
 z_index = -1
 position = Vector2(480, 270)
 scale = Vector2(120, 1.04651)
-texture = ExtResource("2_clxbb")
+texture = ExtResource("2_ukktt")
 
 [node name="HoneyBadger" type="Sprite2D" parent="." node_paths=PackedStringArray("explode", "explotano", "explodesound")]
 position = Vector2(471, 164)
 scale = Vector2(0.532051, 0.522436)
-texture = ExtResource("3_uvcbp")
-script = ExtResource("4_vxq1r")
+texture = ExtResource("3_hkdb5")
+script = ExtResource("4_n1tbh")
 explode = NodePath("../Explode")
 explotano = NodePath("../Explotano")
 explodesound = NodePath("../ExplodeSound")
@@ -123,7 +123,7 @@ explodesound = NodePath("../ExplodeSound")
 visible = false
 position = Vector2(471, 163)
 scale = Vector2(0.517134, 0.552542)
-texture = ExtResource("5_idu76")
+texture = ExtResource("5_vyxa3")
 
 [node name="Explotano" type="AnimatedSprite2D" parent="."]
 visible = false
@@ -133,7 +133,7 @@ scale = Vector2(1.54, 1.51241)
 sprite_frames = SubResource("SpriteFrames_dcw1t")
 
 [node name="ExplodeSound" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("23_1qnki")
+stream = ExtResource("23_dh5rw")
 volume_db = -19.81
 
 [node name="Title" type="Label" parent="."]
@@ -160,7 +160,7 @@ offset_bottom = 540.0
 text = "Hover over a button for more details..."
 horizontal_alignment = 1
 autowrap_mode = 3
-script = ExtResource("6_mif06")
+script = ExtResource("24_iql7c")
 
 [node name="SelectUSRDIR" type="Button" parent="."]
 offset_left = 387.0
@@ -206,7 +206,7 @@ offset_right = 862.0
 offset_bottom = 291.0
 text = "Create patches...."
 autowrap_mode = 2
-script = ExtResource("25_7sdjr")
+script = ExtResource("25_ustup")
 lightning = NodePath("../Lightning")
 honeynow = NodePath("../HoneyNOW")
 honeynowbig = NodePath("../HoneyNOWBig")
@@ -235,7 +235,7 @@ ok_button_text = "Select Current Folder"
 file_mode = 2
 access = 2
 show_hidden_files = true
-script = ExtResource("25_61viv")
+script = ExtResource("26_mbwk5")
 
 [node name="AcceptDialog" type="AcceptDialog" parent="."]
 title = "Notice"
@@ -254,25 +254,25 @@ vertical_alignment = 2
 z_index = -1
 position = Vector2(416.5, 264)
 scale = Vector2(2.59063, 1.66875)
-texture = ExtResource("27_vnpkj")
-script = ExtResource("27_0b2i5")
+texture = ExtResource("27_j11df")
+script = ExtResource("28_1axod")
 
 [node name="HoneyNOW" type="Sprite2D" parent="."]
 position = Vector2(471, 163.5)
 scale = Vector2(0.532051, 0.522436)
-texture = ExtResource("27_iaya5")
-script = ExtResource("28_alpvu")
+texture = ExtResource("29_uuvjd")
+script = ExtResource("30_awgdd")
 
 [node name="HoneyNOWBig" type="Sprite2D" parent="."]
 visible = false
 z_index = 3
 position = Vector2(480, 270)
 scale = Vector2(3.07692, 1.73077)
-texture = ExtResource("27_iaya5")
-script = ExtResource("28_kwxox")
+texture = ExtResource("29_uuvjd")
+script = ExtResource("31_j02at")
 
 [node name="LightningSound" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("32_a42q4")
+stream = ExtResource("32_yvfwc")
 
 [connection signal="animation_finished" from="Explotano" to="HoneyBadger" method="_on_explotano_animation_finished"]
 [connection signal="mouse_entered" from="SelectUSRDIR" to="Description" method="_on_select_usrdir_mouse_entered"]
